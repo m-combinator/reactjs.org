@@ -202,7 +202,7 @@ Because its value is read-only, it is an **uncontrolled** component in React. It
 
 ## Handling Multiple Inputs
 
-When you need to handle multiple controlled `input` elements, you can add a `name` attribute to each element and let the handler function choose what to do based on the value of `event.target.name`.
+When you need to handle multiple controlled `input` elements, you can add a `name` attribute to each element and let the handler function choose what to do based on the value of `event.target.type`.
 
 For example:
 
